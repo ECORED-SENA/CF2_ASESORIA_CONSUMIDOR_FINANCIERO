@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="314" viewBox="0 0 610 314">
+  <g id="Grupo_149959" data-name="Grupo 149959" transform="translate(8889 7734)">
+    <g id="Grupo_147777" data-name="Grupo 147777" transform="translate(-9679.149 -11134.927)">
+      <g id="Rectángulo_673" data-name="Rectángulo 673" transform="translate(790.149 3430.927)" fill="#fff" stroke="#e1e1e1" stroke-width="1">
+        <rect width="610" height="284" stroke="none"/>
+        <rect x="0.5" y="0.5" width="609" height="283" fill="none"/>
+      </g>
+      <rect id="Rectángulo_674" data-name="Rectángulo 674" width="610" height="4" transform="translate(790.149 3400.927)" fill="#59c447"/>
+      <rect id="Rectángulo_675" data-name="Rectángulo 675" width="610" height="48" transform="translate(790.149 3404.927)" fill="#e8e8e8"/>
+      <line id="Línea_55" data-name="Línea 55" x1="609" transform="translate(791.149 3495.927)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_85" data-name="Línea 85" x1="609" transform="translate(791.149 3550.927)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_153" data-name="Línea 153" x1="609" transform="translate(791.149 3609.927)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_154" data-name="Línea 154" x1="609" transform="translate(791.149 3659.927)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_155" data-name="Línea 155" y2="262" transform="translate(1110.149 3452.927)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <text id="Media" transform="translate(895.149 3463.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="50.349" y="16">Media</tspan></text>
+      <text id="Medidas_de_tendencia_Préstamos" data-name="Medidas de tendencia
+Préstamos" transform="translate(992.149 3408.927)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="28.853" y="16">Medidas de tendencia</tspan></text>
+      <text id="_1_88" data-name="1,88" transform="translate(1154.149 3463.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="58.894" y="16">1,88</tspan></text>
+      <text id="Error_típico" data-name="Error típico" transform="translate(895.149 3515.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="34.529" y="16">Error típico</tspan></text>
+      <text id="_0_194250697" data-name="0,194250697" transform="translate(1154.149 3515.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="29.414" y="16">0,194250697</tspan></text>
+      <text id="Mediana" transform="translate(895.149 3574.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="42.132" y="16">Mediana</tspan></text>
+      <text id="_2" data-name="2" transform="translate(1154.149 3574.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="68.789" y="16">2</tspan></text>
+      <text id="Moda" transform="translate(895.149 3624.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="51.865" y="16">Moda</tspan></text>
+      <text id="_1" data-name="1" transform="translate(1154.149 3624.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="68.789" y="16">1</tspan></text>
+      <text id="Desviación_estándar" data-name="Desviación estándar" transform="translate(895.149 3679.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="3.335" y="16">Desviación estándar</tspan></text>
+      <text id="_0_971253486" data-name="0,971253486" transform="translate(1154.149 3679.927)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="29.414" y="16">0,971253486</tspan></text>
+    </g>
+  </g>
+</svg>

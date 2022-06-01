@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 1.	Recolección de Información y datos: metodologías
+      h1 Recolección de Información y datos: metodologías
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-10.order-md-1.order-2(data-aos="fade-right")

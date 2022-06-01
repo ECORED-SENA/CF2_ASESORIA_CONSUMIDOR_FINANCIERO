@@ -117,10 +117,6 @@
           img(src='@/assets/curso/tema4/img10.svg')
     p.mb-5 Identificados los riesgos, se deben preparar las acciones, los recursos necesarios y los responsables de la gestión de estos riesgos, con la finalidad de realizar seguimiento y control, lo cual se presentará mediante un informe de monitoreo.
 
-
-
-      
-
 </template>
 
 <script>

@@ -79,12 +79,53 @@
   .container.BG04.p-4.p-md-5
     p.mb-5 Para profundizar en los principios de gestión:
 
+    .row.justify-content-center.mb-5
+      .col-md-10.col-11
+        .row.align-items-center.justify-content-center.BGIMG04.p-3
+          .col-1.p-0
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema3/img04.svg')
+          .col-8.mb-2
+            h4.text-white Explore la Norma ISO 31000 - Principios.
+          .col-2
+            a.boton.color-acento-botones(href="https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es" target="_blank")
+              span Descargar
+              i.fas.fa-file-download  
+
+    separador
+
+    #t_4_2.titulo-segundo.color-acento-contenido
+      h2 4.2.	Informes
+
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-5.col-md-6.col-10(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/tema4/img09.png')
+      .col-lg-7.col-md-6.col-10(data-aos="fade-right")
+        p Los informes de gestión del riesgo deben establecer el contexto de las organizaciones, definir la estructura e identificar el sector en el cual se desarrollan las actividades productivas. Identificado el contexto de las organizaciones, se deben identificar los riesgos internos y externos de eventuales sucesos negativos.
+        p Una vez identificados los riesgos, se debe analizar el nivel de riesgo, a través del cual se puede identificar la probabilidad de que suceda y las consecuencias de que esto suceda, lo cual permite calcular el nivel del riesgo.
+        p El análisis de los riesgos se realiza a través del mapa de riesgos, el cual sirve como guía para priorizar los riesgos y la probabilidad de que ocurra.
+
+    .row.justify-content-center.mb-5
+      .col-md-10.col-11
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 7
+          span Mapa de riesgo
+    .row.mb-5
+      .col-md-10.col-11.ms-3
+        figure
+          img(src='@/assets/curso/tema4/img10.svg')
+    p.mb-5 Identificados los riesgos, se deben preparar las acciones, los recursos necesarios y los responsables de la gestión de estos riesgos, con la finalidad de realizar seguimiento y control, lo cual se presentará mediante un informe de monitoreo.
+
+
+
+      
 
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),

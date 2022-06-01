@@ -144,32 +144,101 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto: 'Análisis financiero',
+      tipo: 'Decreto',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto: 'Análisis financiero',
+      tipo: 'Ebook',
+      link: 'https://www.editorialpatria.com.mx/',
+    },
+    {
+      texto: 'Análisis financiero',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=fKYnZt2xTs4&list=PLkc5n6npRWkjKKk9kQvo7hrdPEmUuWoN8&index=4',
+    },
+    {
+      texto: 'Gestión del riesgo',
+      tipo: 'Norma Internacional',
+      link: 'https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es',
+    },
+    {
+      texto: 'Propuesta financiera',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=5PAIPVjGMt4',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Análisis financiero',
+      significado:
+        'Estudio minucioso que se realiza de la información contable de una organización, a partir del cual se determinan unos indicadores que representan la realidad de la organización.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Centrales de riesgo',
+      significado:
+        'Vigilan y reportan la información respecto al comportamiento crediticio de las personas u organizaciones.',
+    },
+    {
+      termino: 'Contabilidad',
+      significado:
+        'La contabilidad es la parte de las finanzas que estudia las distintas partidas que reflejan los movimientos económicos y financieros de una empresa o entidad (Gil, 2015)',
+    },
+    {
+      termino: 'Encuesta',
+      significado:
+        'Instrumento de recolección de datos para posteriormente ser analizados.',
+    },
+    {
+      termino: 'Estados financieros',
+      significado:
+        'Los estados financieros reflejan las operaciones o transacciones diarias que realiza una empresa en sus actividades, siendo resumidas en la estructura exhibida como estado financiero. Los estados financieros se alimentan de la información suministrada por los libros contables. (Elizalde, 2019)',
+    },
+    {
+      termino: 'Indicadores financieros',
+      significado:
+        'Un análisis o estudio financiero se llega a basar en el cálculo de los indicadores de las finanzas, los mismos que son expresados por la eficiencia, solvencia, rendimiento, liquidez, endeudamiento y rentabilidad que posee la entidad. (Moreno, 2014).',
+    },
+    {
+      termino: 'Riesgo',
+      significado: 'La posibilidad de un suceso no deseado.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Algarra, M. (2013). Punto de equilibrio. Registros contables III.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://registroscontables3.blogspot.com/p/punto-de-equilibrio.html',
+    },
+    {
+      referencia:
+        'Elizalde, L. (2019). Los estados financieros y las políticas contables. Revista 593 Digital Publisher CEIT, 4(5-1).',
+      link:
+        'https://www.593dp.com/index.php/593_Digital_Publisher/article/view/159',
+    },
+    {
+      referencia: 'Gil, S. (2015). Contabilidad. Economipedia.',
+      link: '. http://economipedia.com/definiciones/contabilidad.html',
+    },
+    {
+      referencia:
+        'Organización Internacional de Estandarización [ISO]. (2018). Gestión del riesgo — Directrices (ISO 31000:2018).',
+    },
+    {
+      referencia:
+        'Marcillo-Cedeño, C., Aguilar-Guijarro, C. y Gutiérrez-Jaramillo, N. (2021). Análisis financiero: una herramienta clave para la toma de decisiones de gerencia. Revista 593 Digital Publisher CEIT, 6(3).',
+      link: 'http://doi.org/10.33386/593dp.2021.3.544',
+    },
+    {
+      referencia:
+        'Moreno, J. (2014). Contabilidad básica. Grupo Editorial Patria.',
+    },
+    {
+      referencia: 'Palomo, M. (2014). Atención al cliente. Paraninfo.',
     },
   ],
   creditos: {
@@ -202,13 +271,72 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Erika Viviana Sandoval Rojas',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Validación Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Luis Gabriel Urueta Alvarez',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

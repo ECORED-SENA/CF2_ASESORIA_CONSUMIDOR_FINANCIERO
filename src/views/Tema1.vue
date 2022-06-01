@@ -208,18 +208,13 @@
     
     p.mb-5 Una vez diseñado el cuestionario y estimado el número de la muestra, se aplica la encuesta de manera presencial, medio telefónico o medios electrónicos; una vez recolectada la información, se analiza mediante métodos estadísticos.
 
-
-
-
 </template>
 
 <script>
 export default {
   name: 'Tema1',
   components: {},
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

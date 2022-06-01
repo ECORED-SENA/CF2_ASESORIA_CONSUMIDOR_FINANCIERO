@@ -11,7 +11,7 @@
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hjNS3NwWYWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p El asesor también deberá dar a conocer las ventajas o desventajas para el consumidor al adquirir un producto financiero, deberá brindar una explicación de cómo funciona el dinero y las finanzas y cómo estas decisiones pueden beneficiar o afectar las finanzas del consumidor.
 

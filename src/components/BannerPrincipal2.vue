@@ -7,7 +7,7 @@
       .col-1
       .col-5.py-5.banner-principal__info
         .banner-principal__componente
-          h1.mb-0(style="font-size: 2.63em" v-html="globalData.componenteFormativo")
+          h1.mb-0(style="font-size: 2em" v-html="globalData.componenteFormativo")
         .col-lg-12
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")
@@ -128,7 +128,7 @@ export default {
     // animation: float1 3s ease-in-out infinite alternate
     position: absolute
     width: 100%
-    bottom: 3%
+    bottom: 8%
     left: 0%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate

@@ -31,7 +31,7 @@
           p Las centrales de riesgo más consultadas son Datacrédito y CIFIN, las dos son entidades privadas, que se diferencian principalmente en que Datacrédito abarca más entidades, como las telecomunicaciones.
           p En cada una de estas plataformas, se puede verificar las entidades con las que el consumidor ha tenido relación y si su comportamiento es positivo o negativo.
     
-    p.mb-5 . En la siguiente ilustración, se puede observar que el usuario cuenta con cinco (5) cuentas abiertas, lo que significa que están activas y doce (12) cuentas cerradas, que están inactivas:
+    p.mb-5 En la siguiente ilustración, se puede observar que el usuario cuenta con cinco (5) cuentas abiertas, lo que significa que están activas y doce (12) cuentas cerradas, que están inactivas:
     
     .row.align-items-center.justify-content-center
       .col-md-10.col-12(data-aos="fade-right")

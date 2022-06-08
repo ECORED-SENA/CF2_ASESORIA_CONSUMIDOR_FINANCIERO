@@ -11,7 +11,8 @@
       .col-lg-6.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
-      .col-10
+    .row.justify-content-center
+      .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")

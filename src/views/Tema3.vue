@@ -66,7 +66,7 @@
           .row.align-items-center.justify-content-center
             .col-md-8
               p En cuanto a los libros auxiliares, se encuentran:
-              ol.lista-dollar
+              ol.lista-dollar.ps-4
                 li.mb-1
                   .lista-dollar
                   | Libro de bancos
@@ -108,41 +108,45 @@
 
     .row.justify-content-center.mb-5
       .col-md-4(data-aos="fade-right")
-        table(style="border-top: 1px solid #59C447") 
-          thead
-            tr.text-center(style="background-color: #E8E8E8")
-              <th colspan="2">4135 Comercio al por mayor y al por menor</th>
-          tbody
-            tr.text-center
-              td Debe
-              td Haber
-            tr
-              td 
-              td.text-center $2.000.000
+        .tabla-a.color-acento-contenido.mb-5 
+          table
+            thead
+              tr
+                th(colspan="2") 4135 Comercio al por mayor y al por menor
+            tbody
+              tr
+                td(style="background-color: #fff; color: #000").text-center Debe
+                td(style="background-color: #fff; color: #000").text-center Haber
+              tr
+                td(style="background-color: #fff; color: #000").text-center 
+                td(style="background-color: #fff; color: #000").text-center $2.000.000
       .col-md-4
-        table(style="border-top: 1px solid #59C447") 
-          thead
-            tr.text-center(style="background-color: #E8E8E8")
-              <th colspan="2">110505 Caja</th>
-          tbody
-            tr.text-center
-              td Debe
-              td Haber
-            tr
-              td.text-center $1.200.000
-              td 
+        .tabla-a.color-acento-contenido.mb-5 
+          table
+            thead
+              tr
+                th(colspan="2") 110505 Caja
+            tbody
+              tr
+                td(style="background-color: #fff; color: #000").text-center Debe
+                td(style="background-color: #fff; color: #000").text-center Haber
+              tr
+                td(style="background-color: #fff; color: #000").text-center $1.200.000
+                td(style="background-color: #fff; color: #000").text-center
       .col-md-4(data-aos="fade-left")
-        table(style="border-top: 1px solid #59C447") 
-          thead
-            tr.text-center(style="background-color: #E8E8E8")
-              <th colspan="2">138020 Cuentas por cobrar de terceros</th>
-          tbody
-            tr.text-center
-              td Debe
-              td Haber
-            tr
-              td.text-center $700.000
-              td 
+        .tabla-a.color-acento-contenido.mb-5 
+          table
+            thead
+              tr
+                th(colspan="2") 138020 Cuentas por cobrar de terceros
+            tbody
+              tr
+                td(style="background-color: #fff; color: #000").text-center Debe
+                td(style="background-color: #fff; color: #000").text-center Haber
+              tr
+                tr
+                td(style="background-color: #fff; color: #000").text-center $700.000
+                td(style="background-color: #fff; color: #000").text-center
 
     p.mb-5 Los registros contables se deben registrar por el sistema de doble partida, el cual busca un equilibrio en los movimientos contables; de acuerdo con las cuentas, estas disminuyen o aumentan en el debe o el haber; en el debe, se registran todos los ingresos, y en el haber, todas las salidas.
 
@@ -163,7 +167,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-10.order-md-1.order-2(data-aos="fade-right")
         p Los estados financieros son el reflejo de la contabilidad de las empresas y muestran su estructura económica y financiera de acuerdo con la actividad económica que ejercen. Dentro de los estados financieros, se encuentran:
-        ol.lista-dollar.ps-3
+        ol.lista-dollar.ps-4
           li.mb-2
             .lista-dollar
             | Situación financiera 
@@ -187,6 +191,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img11.svg')})`}")
+              h4.text-end.text-center Estado de situación financiera (Balance general)
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 Estado de situación financiera (Balance general)
               p.mb-0 Bienes, dinero y derechos (Activos)
@@ -409,7 +414,7 @@
             h4.mb-0.text-center Planificación financiera. 
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
             .p-4.text-center
-              h5.mb-4 Planificación financiera. 
+              h4.mb-4 Planificación financiera. 
               p Las decisiones financieras no son compartidas entre los integrantes del grupo familiar. El 62 % de las veces, la decisión la toma una sola persona.
       .col-lg-4.mb-3
         .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
@@ -419,7 +424,7 @@
             h4.mb-0.text-center Elaboración y utilización de un presupuesto. 
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
             .p-4.text-center
-              h5.mb-4 Elaboración y utilización de un presupuesto. 
+              h4.mb-4 Elaboración y utilización de un presupuesto. 
               p El 58 % de las personas planifican con regularidad sus pagos y gastos. Una vez elaborado el presupuesto, se respeta en un 61 %.
       .col-lg-4.mb-3
         .tarjeta.tarjeta-foto-hover
@@ -428,7 +433,7 @@
             h4.mb-0.text-center Conocimiento de los productos que ofrece el sistema financiero. 
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
             .p-4.text-center
-              h5.mb-4 Conocimiento de los productos que ofrece el sistema financiero. 
+              h4.mb-4 Conocimiento de los productos que ofrece el sistema financiero. 
               p El 96 % de las personas han oído hablar de por lo menos un producto financiero. La cuenta de ahorro y las tarjetas de crédito son los más conocidos. Sin embargo, esto no significa que conozcan sus características ni cómo manejarlas para obtener el mayor beneficio.
 
 

@@ -33,11 +33,11 @@
             figure
               img(src='@/assets/curso/tema1/img04.svg')
           .tarjeta.BG02.p-3(x="49%" y="45%" numero="1")
-            p 1. La estadística permite la recolección de información y datos mediante diferentes metodologías y procedimientos, lo cual permite realizar un análisis correcto de la información y los datos recolectados. Se presentan dos ramas de la estadística: descriptiva e inferencial. 
+            p <b>1</b>. La estadística permite la recolección de información y datos mediante diferentes metodologías y procedimientos, lo cual permite realizar un análisis correcto de la información y los datos recolectados. Se presentan dos ramas de la estadística: descriptiva e inferencial. 
           .tarjeta.BG02.p-3(x="90.4%" y="36.5%" numero="2")
-            p 2. La estadística descriptiva presenta la información recolectada de una forma organizada, mediante tablas y gráficos.
+            p <b>2</b>. La estadística descriptiva presenta la información recolectada de una forma organizada, mediante tablas y gráficos.
           .tarjeta.BG02.p-3(x="24.8%" y="49.5%" numero="3")
-            p 3. La estadística inferencial permite realizar predicciones y analizar datos.
+            p <b>3</b>. La estadística inferencial permite realizar predicciones y analizar datos.
 
     p.mb-5 La estadística descriptiva mide variables cuantitativas y cualitativas, las cuales tienen una medición mediante la tendencia central y la tendencia de variabilidad. La estadística inferencial mide variables aleatorias, para lo cual emplea, como métodos de medición y análisis, t-test, análisis de varianza, correlación y regresión.
 
@@ -49,7 +49,7 @@
       .col-md-3.col-5.mb-5(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img05.svg')
-      .col-md-12(data-aos="fade-left")
+      .col-md-11(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img06.svg')
 
@@ -62,27 +62,142 @@
           .col-md-5.col-10
             h5.text-center Tabla 1 
             h5.text-center No. de datos recolectados
-            figure
-              img(src='@/assets/curso/tema1/img08.svg')
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th 
+                    th
+                    th
+                    th
+                    th
+                tbody
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 3
+                    td(style="background-color: #fff; color: #000").text-center 4
+                    td(style="background-color: #fff; color: #000").text-center 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 4
+                    td(style="background-color: #fff; color: #000").text-center 3
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 3
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 2
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 3
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 2
         .row.justify-content-center
           .col-md-3
             p.mb-4 A continuación, se deben presentar los datos de una forma ordenada, que es una de las cualidades de la estadística descriptiva.
             h5 Tabla 2
             p Datos recolectados ordenados
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/img09.svg')
-          .col-md-3.p-0.mt-5
-            figure
-              img(src='@/assets/curso/tema1/img10.svg')
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th 
+                    th
+                    th
+                    th
+                    th
+                tbody
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 1
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 2
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 2
+                    td(style="background-color: #fff; color: #000").text-center 3
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center 3
+                    td(style="background-color: #fff; color: #000").text-center 3
+                    td(style="background-color: #fff; color: #000").text-center 3
+                    td(style="background-color: #fff; color: #000").text-center 4
+                    td(style="background-color: #fff; color: #000").text-center 4
+          .col-md-3.p-0.mt-4
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th Préstamos (x) 
+                    th No. de personas (f)
+                tbody
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center.p-2 1
+                    td(style="background-color: #fff; color: #000").text-center.p-2 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center.p-2 1
+                    td(style="background-color: #fff; color: #000").text-center.p-2 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center.p-2 2
+                    td(style="background-color: #fff; color: #000").text-center.p-2 2
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center.p-2 2
+                    td(style="background-color: #fff; color: #000").text-center.p-2 2
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center.p-2 3
+                    td(style="background-color: #fff; color: #000").text-center.p-2 4
         .row.justify-content-center
           .col-md-3.me-5
             p.mb-4 A partir de la información recolectada, se estiman las medidas de tendencia central y desviación estándar, con el uso de análisis de datos de Excel.
             h5 Tabla 3
             p Medidas de tendencia
           .col-md-6.mt-4
-            figure
-              img(src='@/assets/curso/tema1/img11.svg')
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th(colspan="2") Medidas de tendencia Préstamos
+                tbody
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center Media
+                    td(style="background-color: #fff; color: #000").text-center 1,88
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center Error típico
+                    td(style="background-color: #fff; color: #000").text-center 0,194250697
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center Mediana
+                    td(style="background-color: #fff; color: #000").text-center 2
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center Moda
+                    td(style="background-color: #fff; color: #000").text-center 1
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center Desviación estándar
+                    td(style="background-color: #fff; color: #000").text-center 0,971253486
 
   .container.BG04.p-4.p-md-5
     p.mb-2 A continuación, se analizan los datos:
@@ -115,13 +230,13 @@
           img(src='@/assets/curso/tema1/img14.svg')    
 
     .row.align-items-center.justify-content-center
-      .col-lg-4.col-md-5.col-11
+      .col-lg-4.col-md-5.col-11.mb-3
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img15.png')
       .col-lg-8.col-md-7.col-11(data-aos="fade-right")
         p En cuanto a la recolección de información y datos, se emplean diferentes técnicas e instrumentos, los cuales se dividen en dos grupos: recolección de datos de fuentes secundarias y recolección de datos de fuentes primarias.
         p En cuanto a los datos recolectados de fuentes secundarias, deben tomarse de fuentes confiables y verificables; esta información es recolectada y analizada por otros actores, y posteriormente, es publicada. Dentro de las fuentes secundarias, se encuentran:
-        ol.lista-dollar
+        ol.lista-dollar.ps-4
           li.mb-1
             .lista-dollar
             | Datos históricos
@@ -182,24 +297,24 @@
         p A continuación, se aborda la encuesta como técnica para la recolección de datos, para la cual, al momento de ser implementada, se debe definir el público objetivo a quien se va a dirigir la encuesta, el tema y los tipos de datos que se esperan recolectar.
         p Es de gran importancia realizar recolección de datos e información cualitativos y cuantitativos. En el momento de diseñar el cuestionario de la encuesta, estos datos deben estar incluidos; una vez diseñado el cuestionario, se debe estimar el número de personas a las que se va aplicar.
         .cajon.color-primario.py-3.px-4.mb-4
-          p La muestra se estima bajo la siguiente fórmula n = (Z²pqN) / (Ne² + Z²pq), donde:
-          ol.lista-dollar2.ps-3
-            li.mb-1
+          p La muestra se estima bajo la siguiente fórmula <b>n = (Z²pqN) / (Ne² + Z²pq)</b>, donde:
+          ol.lista-dollar2.ps-4
+            li.mb-2
               .lista-dollar2
               | n: muestra.
-            li.mb-1
+            li.mb-2
               .lista-dollar2
               | N: población
-            li.mb-1
+            li.mb-2
               .lista-dollar2
               | Z: nivel de confianza
-            li.mb-1
+            li.mb-2
               .lista-dollar2
               | e: grado de error
-            li.mb-1
+            li.mb-2
               .lista-dollar2
               | p: probabilidad de ocurrencia
-            li.mb-1
+            li.mb-2
               .lista-dollar2
               | q: probabilidad de no ocurrencia
       .col-lg-5.col-md-6.col-11.order-md-2.order-1.p-0

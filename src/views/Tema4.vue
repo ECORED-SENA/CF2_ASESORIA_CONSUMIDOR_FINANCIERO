@@ -30,25 +30,25 @@
 
   .container.BGIMG05.px-4.px-md-5.pt-5   
     .row.justify-content-center.mb-5
-      .col-md-3.col-6
+      .col-lg-3.col-md-4.col-6
         figure.p-0
           img(src='@/assets/curso/tema4/img03.svg')
-        .BG07.p-4
+        .BG07.p-lg-4.p-md-3.p-4.mb-3
           p <b>Riesgo crediticio:</b> cuando no se asume el pago  de una obligación o se recibe con retraso. 
-      .col-md-3.col-6
+      .col-lg-3.col-md-4.col-6
         figure.p-0
           img(src='@/assets/curso/tema4/img04.svg')
-        .BG07.p-4
+        .BG07.p-lg-4.p-md-3.p-4.mb-3
           p <b>Riesgo de liquidez:</b> cuando el acreedor posee activos, pero los activos corrientes no generan la suficiente liquidez para el pago de sus obligaciones.
-      .col-md-3.col-6
+      .col-lg-3.col-md-4.col-6
         figure.p-0
           img(src='@/assets/curso/tema4/img05.svg')
-        .BG07.p-4
+        .BG07.p-lg-4.p-md-3.p-4.mb-3
           p <b>Riesgo de mercado:</b> son los riesgos asociados al mercado, como el riesgo cambiario o el riesgo de la tasa de interés.
-      .col-md-3.col-6
+      .col-lg-3.col-md-4.col-6
         figure.p-0
           img(src='@/assets/curso/tema4/img06.svg')
-        .BG07.p-4
+        .BG07.p-lg-4.p-md-3.p-4.mb-3
           p <b>Riesgo operacional:</b> son los inherentes al ejercicio diario de las organizaciones dentro de su funcionamiento y actividad económica.
 
     separador

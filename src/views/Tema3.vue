@@ -8,7 +8,7 @@
       h1 Análisis financiero
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-5.col-md-6.col-10(data-aos="zoom-in")
+      .col-lg-5.col-md-6.col-10.mb-md-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema3/img01.png') 
       .col-lg-7.col-md-6.col-10(data-aos="fade-right")
@@ -23,7 +23,7 @@
       h2 3.1.	Principios de contabilidad 
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-10.order-md-1.order-2(data-aos="fade-right")
+      .col-lg-7.col-md-6.col-10.order-md-1.order-2.mb-md-0.mb-4(data-aos="fade-right")
         p Todas las personas y las organizaciones deben llevar registrada su información financiera y económica, lo cual permite contar con un control de sus actividades económicas.
         .bloque-texto-c.color-secundario.px-4.py-2.mb-2
           i.fas.fa-quote-left
@@ -34,7 +34,7 @@
                 i.fas.fa-quote-right
                 .h5.me-5 (Moreno, 2014)
         p El registro de la información financiera y económica empleando la contabilidad es de gran utilidad para las entidades, debido a que permite analizar e identificar la situación económica, la cual, a su vez, permite la toma de decisiones. El registro de esta información también permite el seguimiento y control de la entidad.
-      .col-lg-5.col-md-6.col-10.order-md-2.order-1(data-aos="zoom-in")
+      .col-lg-5.col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema3/img02.png')
 
@@ -42,16 +42,18 @@
 
     .row.justify-content-center.mb-5
       .col-md-10.col-11
-        .row.align-items-center.justify-content-center.BGIMG04.p-3
-          .col-1.p-0(data-aos="fade-right")
+        .row.align-items-center.BGIMG04.p-3
+          .col-md-2.col-3.p-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema3/img04.svg')
-          .col-8.mb-2
-            h4.text-white Código de Comercio, artículos 45 y 48 
-          .col-2
-            a.boton.color-acento-botones(href="https://www.camarabaq.org.co/wp-content/uploads/2021/03/CodigodeComercio-2.pdf" target="_blank")
-              span Descargar
-              i.fas.fa-file-download
+          .col-md-10.col-9
+            .row.align-items-center
+              .col-md-9.col-12
+                h4.text-white Código de Comercio, artículos 45 y 48 
+              .col-sm-auto.mb-md-0.mb-4
+                a.boton.color-acento-botones(href="https://www.camarabaq.org.co/wp-content/uploads/2021/03/CodigodeComercio-2.pdf" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download
     
     p Los libros contables deben registrar todas las operaciones en un orden cronológico y con el valor monetario, en idioma castellano, por sistema de partida doble.
     p Los libros de contabilidad, para efectos fiscales, se dividen en libros principales y libros auxiliares, de acuerdo con el Artículo 49 del Código de Comercio. Dentro de los libros principales, se encuentran:
@@ -83,16 +85,18 @@
   .container.BG04.p-4.p-md-5
     .row.justify-content-center.mb-5
       .col-md-10.col-11
-        .row.align-items-center.justify-content-center.BGIMG04.p-3
-          .col-1.p-0
+        .row.align-items-center.BGIMG04.p-3
+          .col-md-2.col-3.p-0
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema3/img04.svg')
-          .col-8.mb-2
-            h4.text-white El Código de Comercio, en su Artículo 57, establece las prohibiciones sobre los libros de comercio. Para ampliar sobre los elementos que se prohíben, observe:
-          .col-2
-            a.boton.color-acento-botones(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html" target="_blank")
-              span Descargar
-              i.fas.fa-file-download  
+          .col-md-10.col-9
+            .row.align-items-center
+              .col-md-9.col-12
+                h4.text-white El Código de Comercio, en su Artículo 57, establece las prohibiciones sobre los libros de comercio. Para ampliar sobre los elementos que se prohíben, observe:
+              .col-sm-auto.mb-md-0.mb-4
+                a.boton.color-acento-botones(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download  
     p.mb-5 Las cuentas T en contabilidad representan el registro de los movimientos contables, el cual consta del débito y del haber; en el momento en que se realiza el registro, se deben diligenciar el código y el nombre de la cuenta.
 
     .row.justify-content-center.mb-5
@@ -107,7 +111,7 @@
     p.mb-5 Por ejemplo, la empresa Andina S.A. vende mercancía por un valor de $2.000.000, de la cual se realiza pago en efectivo por valor de $1.200.000 y el saldo a crédito por 30 días. Al registrar en las cuentas T, se tiene:  
 
     .row.justify-content-center.mb-5
-      .col-md-4(data-aos="fade-right")
+      .col-md-4.mb-md-0.mb-4(data-aos="fade-right")
         .tabla-a.color-acento-contenido.mb-5 
           table
             thead
@@ -120,7 +124,7 @@
               tr
                 td(style="background-color: #fff; color: #000").text-center 
                 td(style="background-color: #fff; color: #000").text-center $2.000.000
-      .col-md-4
+      .col-md-4.mb-md-0.mb-4
         .tabla-a.color-acento-contenido.mb-5 
           table
             thead
@@ -165,7 +169,7 @@
       h2 3.2.	Estados financieros
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-10.order-md-1.order-2(data-aos="fade-right")
+      .col-lg-7.col-md-6.col-10.order-md-1.order-2.mb-md-0.mb-4(data-aos="fade-right")
         p Los estados financieros son el reflejo de la contabilidad de las empresas y muestran su estructura económica y financiera de acuerdo con la actividad económica que ejercen. Dentro de los estados financieros, se encuentran:
         ol.lista-dollar.ps-4
           li.mb-2
@@ -181,44 +185,55 @@
             .lista-dollar
             | Flujo de efectivo
         p.mt-2 De esta manera, reconozca los estados financieros: 
-      .col-lg-5.col-md-6.col-10.order-md-2.order-1(data-aos="zoom-in")
+      .col-lg-5.col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema3/img10.png')
 
     .row.mb-5(data-aos="fade-right")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img11.svg')})`}")
-              h4.text-end.text-center Estado de situación financiera (Balance general)
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
+              figure.p-4.p-lg-0.mb-2
+                img(src='@/assets/curso/tema3/img11.svg') 
+              h4.text-center Estado de situación financiera (Balance general)
+            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
               h4 Estado de situación financiera (Balance general)
               p.mb-0 Bienes, dinero y derechos (Activos)
               p.mb-0 Obligaciones (Pasivos)
               p Capital y reservas (Patrimonio)
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img12.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
+              figure.p-4.p-lg-0.mb-2
+                img(src='@/assets/curso/tema3/img12.svg')
+              h4.text-center Estado de resultados
+            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
               h4 Estado de resultados
               p Refleja los ingresos y costos de la empresa y detalla si en el periodo hubo beneficios o pérdidas.
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img13.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
+              figure.p-4.p-lg-0.mb-2
+                img(src='@/assets/curso/tema3/img13.svg')
+              h4.text-center Estado de cambio en el patrimonio
+            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
               h4 Estado de cambio en el patrimonio
               p Refleja la variación de entradas y salidas de dinero en un periodo determinado; se detalla la evolución del patrimonio.
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img14.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
+              figure.p-4.p-lg-0.mb-2
+                img(src='@/assets/curso/tema3/img14.svg')
+              h4.text-center Estado de flujo de efectivo
+            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
               h4 Estado de flujo de efectivo
               p Refleja las fuentes y usos del efectivo en la empresa.
 
@@ -226,12 +241,12 @@
     p.mb-5 En cuanto a las obligaciones, en el estado de situación financiera, se denominan pasivos, y también se dividen en pasivos no corrientes y pasivos corrientes. El capital y las reservas de la empresa se  denominan patrimonio. A continuación, se presentan algunos conceptos del estado de situación financiera: 
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-4.col-md-5.col-10(data-aos="zoom-in")
+      .col-lg-4.col-md-5.col-10.mb-md-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema3/img15.png') 
       .col-lg-8.col-md-7.col-12(data-aos="fade-right")
         .row.align-items-center
-          .col-6
+          .col-md-6.mb-md-0.mb-4
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img16.svg' alt='AvatarTop')
@@ -253,7 +268,7 @@
                 .p-4
                   h5 PASIVOS CORRIENTES 
                   p Deuda y obligaciones a corto plazo.
-          .col-6
+          .col-md-6.mb-md-0.mb-4
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img19.svg' alt='AvatarTop')
@@ -398,7 +413,7 @@
                 td Ventas/Activos fijos
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-md-6.col-10(data-aos="fade-right")
+      .col-md-6.col-10.mb-md-0.mb-4(data-aos="fade-right")
         p La capacidad de las empresas para analizar estos indicadores financieros permite que se tenga una correcta educación financiera, que lo que busca es tener un concepto más profundo de las finanzas y del manejo del dinero, tanto en lo personal como al interior de las organizaciones.
         p Todos los análisis que se realicen alrededor de los estados financieros permiten tomar mejores decisiones, tanto para invertir o mejorar como para tomar la decisión de dejar un negocio.
         p De acuerdo con la Encuesta de Capacidad Financiera de los Países Andinos, elaborada por la Corporación Andina de Fomento (CAF, 2015), la situación de la educación financiera en Colombia es la siguiente:
@@ -435,10 +450,6 @@
             .p-4.text-center
               h4.mb-4 Conocimiento de los productos que ofrece el sistema financiero. 
               p El 96 % de las personas han oído hablar de por lo menos un producto financiero. La cuenta de ahorro y las tarjetas de crédito son los más conocidos. Sin embargo, esto no significa que conozcan sus características ni cómo manejarlas para obtener el mayor beneficio.
-
-
-
-
 
 </template>
 

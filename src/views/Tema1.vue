@@ -8,20 +8,21 @@
       h1 Recolección de Información y datos: metodologías
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-10.order-md-1.order-2(data-aos="fade-right")
+      .col-lg-7.col-md-6.col-10.order-md-1.order-2.mb-md-0.mb-4(data-aos="fade-right")
         p La recolección de información y de datos es el método por el cual se obtiene información deseada para su análisis cuantitativo y cualitativo, lo cual permite la toma de decisiones en los entornos personales y organizacionales. La obtención y análisis de información y datos se basa en métodos estadísticos.
         .BG01.p-2.mb-3
           h5.mb-0 La estadística
           p.mb-0 se desprende de las matemáticas, cuya finalidad es recopilar, ordenar y análisis datos, los cuales se analizan con la finalidad de comprobar hipótesis, o el comportamiento de las variables objeto de estudio.
         p Por ejemplo, se pueden estudiar comportamientos de los consumidores financieros, como la frecuencia con la cual solicitan préstamos de consumo o la variable ingresos promedio de una población objeto de estudio.        
-      .col-lg-5.col-md-6.col-10.order-md-2.order-1(data-aos="zoom-in")
+      .col-lg-5.col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema1/img01.png')
 
-    .row
-      .col-md-3.col-5
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img02.svg')
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BG08.p-2
+        .h4.ms-3.mb-0.me-5 Metodologías
+      .col-auto
+        img.img01(src='@/assets/curso/tema1/img14.svg') 
 
   .container.BGIMG01.px-4.px-md-5
     p.mb-5 En la obtención de información, es indispensable implementar unas correctas técnicas o metodologías de recolección de información, que permitan a las entidades realizar una correcta planeación y ser eficaces en el momento en que se deban tomar decisiones. Para ello, reconozca el concepto de estadística, así: 
@@ -45,10 +46,13 @@
       h5 Figura 1
       span Metodología estadística
 
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BG08.p-2
+        .h4.ms-3.mb-0.me-5 Instrumentos
+      .col-auto
+        img.img01(src='@/assets/curso/tema1/img14.svg')   
+
     .row.mb-5 
-      .col-md-3.col-5.mb-5(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema1/img05.svg')
       .col-md-11(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img06.svg')
@@ -58,8 +62,8 @@
 
     .BGIMG02.p-5(data-aos="fade-right")
       SlyderA(tipo="b")
-        .row.justify-content-center
-          .col-md-5.col-10
+        .row.justify-content-center.mb-4.mx-4
+          .col-md-5.col-11
             h5.text-center Tabla 1 
             h5.text-center No. de datos recolectados
             .tabla-a.color-acento-contenido.mb-5 
@@ -102,12 +106,12 @@
                     td(style="background-color: #fff; color: #000").text-center 1
                     td(style="background-color: #fff; color: #000").text-center 1
                     td(style="background-color: #fff; color: #000").text-center 2
-        .row.justify-content-center
-          .col-md-3
+        .row.justify-content-center.mb-4.mx-4
+          .col-md-3.mb-md-0.mb-4
             p.mb-4 A continuación, se deben presentar los datos de una forma ordenada, que es una de las cualidades de la estadística descriptiva.
             h5 Tabla 2
             p Datos recolectados ordenados
-          .col-md-4
+          .col-md-4.mb-md-0.mb-4
             .tabla-a.color-acento-contenido.mb-5 
               table
                 thead
@@ -148,7 +152,7 @@
                     td(style="background-color: #fff; color: #000").text-center 3
                     td(style="background-color: #fff; color: #000").text-center 4
                     td(style="background-color: #fff; color: #000").text-center 4
-          .col-md-3.p-0.mt-4
+          .col-md-3.p-0.mt-4.mb-md-0.mb-4
             .tabla-a.color-acento-contenido.mb-5 
               table
                 thead
@@ -171,8 +175,8 @@
                   tr
                     td(style="background-color: #fff; color: #000").text-center.p-2 3
                     td(style="background-color: #fff; color: #000").text-center.p-2 4
-        .row.justify-content-center
-          .col-md-3.me-5
+        .row.justify-content-center.mb-4.mx-4
+          .col-md-3.me-5.mb-md-0.mb-4
             p.mb-4 A partir de la información recolectada, se estiman las medidas de tendencia central y desviación estándar, con el uso de análisis de datos de Excel.
             h5 Tabla 3
             p Medidas de tendencia
@@ -203,7 +207,7 @@
     p.mb-2 A continuación, se analizan los datos:
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-11.order-md-1.order-2(data-aos="fade-right")
+      .col-lg-7.col-md-6.col-11.order-md-1.order-2.mb-md-0.mb-4(data-aos="fade-right")
         ol.lista-dollar
           li.mb-1
             .lista-dollar
@@ -220,17 +224,18 @@
           li.mb-1
             .lista-dollar
             | <b>Rango</b>: El rango entre el número de préstamos solicitados por los consumidores es de 3, un valor mínimo de 1 y un valor máximo de 4.
-      .col-lg-5.col-md-6.col-11.order-md-2.order-1
+      .col-lg-5.col-md-6.col-11.order-md-2.order-1.mb-md-0.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img13.png')
 
-    .row.mb-5 
-      .col-md-3.col-5.mb-5(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema1/img14.svg')    
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BG08.p-2
+        .h4.ms-3.mb-0.me-5.text-white Instrumentos
+      .col-auto
+        img.img01(src='@/assets/curso/tema1/img14.svg')   
 
-    .row.align-items-center.justify-content-center
-      .col-lg-4.col-md-5.col-11.mb-3
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-4.col-md-5.col-11.mb-3.mb-md-0.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img15.png')
       .col-lg-8.col-md-7.col-11(data-aos="fade-right")
@@ -257,15 +262,15 @@
             | Investigaciones
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-md-4.col-11.mb-2(data-aos="fade-right")
+      .col-md-4.col-11.mb-md-0.mb-4(data-aos="fade-right")
         p Estas fuentes son de gran valor, dan un panorama del entorno en el cual está inmersa la organización, los clientes, los proveedores, y otros actores que contribuyen para dar valor a las entidades.
         p En cuanto a la recolección de datos primarios, la organización es la encargada de recolectar la información y los datos, para posteriormente ser analizados empleando técnicas y métodos estadísticos que permiten realizar un correcto análisis de los mismos.
-      .col-md-4.col-11.mb-2
+      .col-md-4.col-11.mb-md-0.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img16.svg')
-      .col-md-4.col-11.mb-2.BG05.px-4.py-2(data-aos="fade-right")
+      .col-md-4.col-11.BG05.px-4.py-2(data-aos="fade-right")
         .row  
-          .col-md-2.p-0
+          .col-md-2.col-4.p-0.mb-md-0.mb-4
             figure
               img(src='@/assets/curso/tema1/img17.svg') 
           .col-md-12
@@ -293,7 +298,7 @@
             td Se realiza con expertos en el sector, quienes expresan sus conocimientos respecto a datos recolectados, puede ser, de fuentes secundarias.
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-10.order-md-1.order-2.p-0(data-aos="fade-right")
+      .col-lg-7.col-md-6.col-10.order-md-1.order-2.p-0.mb-md-0.mb-4(data-aos="fade-right")
         p A continuación, se aborda la encuesta como técnica para la recolección de datos, para la cual, al momento de ser implementada, se debe definir el público objetivo a quien se va a dirigir la encuesta, el tema y los tipos de datos que se esperan recolectar.
         p Es de gran importancia realizar recolección de datos e información cualitativos y cuantitativos. En el momento de diseñar el cuestionario de la encuesta, estos datos deben estar incluidos; una vez diseñado el cuestionario, se debe estimar el número de personas a las que se va aplicar.
         .cajon.color-primario.py-3.px-4.mb-4
@@ -317,7 +322,7 @@
             li.mb-2
               .lista-dollar2
               | q: probabilidad de no ocurrencia
-      .col-lg-5.col-md-6.col-11.order-md-2.order-1.p-0
+      .col-lg-5.col-md-6.col-11.order-md-2.order-1.p-0.mb-md-0.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img19.png') 
     

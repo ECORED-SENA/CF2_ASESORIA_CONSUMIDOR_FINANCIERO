@@ -3,11 +3,10 @@
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
-      .col-1
-      .col-5.py-5.banner-principal__info
+    .row.banner-principal__row.position-relative.align-items-center
+      .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
-          h1.mb-0(style="font-size: 2em" v-html="globalData.componenteFormativo")
+          h1.mb-0(style="font-size: 32px" v-html="globalData.componenteFormativo")
         .col-lg-12
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")
@@ -15,11 +14,9 @@
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
-      .col-1
-      .col-4.d-none.d-lg-block.px-0.banner-principal__img
-        img.w-100(:src="globalData.imagenBannerPrincipal")
+      .col-lg-5.d-none.d-lg-block.px-0.banner-principal__img
+        img(:src="globalData.imagenBannerPrincipal")
         .imagen_flotante_1: img(src="@/assets/curso/bugs.svg")
-      .col-1
     
     //- .imagen_flotante_2: img(src="@/assets/curso/float2.png")
     //- .imagen_flotante_3: img(src="@/assets/curso/float3.png")
@@ -127,8 +124,8 @@ export default {
     animation: scale 5s ease-in-out infinite alternate
     // animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 100%
-    bottom: 8%
+    width: 90%
+    bottom: 20%
     left: 0%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate

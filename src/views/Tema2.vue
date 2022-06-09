@@ -16,14 +16,15 @@
     
   .container.BGIMG03.px-4.px-md-5
     .row.align-items-center.justify-content-center.mb-4
-      .col-md-6.col-11(data-aos="fade-right")
+      .col-md-6.col-11.mb-md-0.mb-4(data-aos="fade-right")
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img02.svg')
       .col-md-6.col-11(data-aos="fade-left")
-        .row.mb-4
-          .col-6
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/img03.svg')
+        .row.align-items-center.mb-5
+          .col-auto.BG08.p-2
+            .h4.ms-3.mb-0.me-5 Análisis
+          .col-auto
+            img.img01(src='@/assets/curso/tema1/img14.svg') 
         P De acuerdo con el comportamiento financiero de los consumidores, obtendrán un reporte positivo o negativo, el cual es analizado por las entidades financieras en el estudio de crédito; esta consulta permite identificar el nivel de riesgo que un cliente puede generar para la entidad.
         p Del nivel de riesgo depende si se otorga el préstamo y a qué tasa de interés, o si definitivamente no se otorga.
         p Las centrales de riesgo no evalúan el monto del crédito, evalúan el comportamiento del consumidor, el cual se encuentra en una escala de 150 a 950 puntos; en una escala mayor de la puntuación del consumidor, menor es el riesgo.
@@ -37,7 +38,7 @@
       .col-md-10.col-12(data-aos="fade-right")
         LineaTiempoD.color-primario
           .row.justify-content-center.p-4(numero="1" titulo="Historia créditos Datacrédito")
-            .col-md-11
+            .col-md-11.mb-md-0.mb-4
               p Se puede observar que, por cada cuenta activa o negativa, se indica si el comportamiento es positivo, negativo o no aplica, como en las cuentas de ahorro.
             .col-md-10
               figure

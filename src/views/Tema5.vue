@@ -15,27 +15,33 @@
 
     p El asesor también deberá dar a conocer las ventajas o desventajas para el consumidor al adquirir un producto financiero, deberá brindar una explicación de cómo funciona el dinero y las finanzas y cómo estas decisiones pueden beneficiar o afectar las finanzas del consumidor.
 
+    separador
     #t_5_1.titulo-segundo.color-acento-contenido
       h2 5.1.	Costos de producción
     
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.col-md-6.col-10.order-md-1.order-2(data-aos="fade-right")
+      .col-lg-7.col-md-6.col-10.order-md-1.order-2.mb-md-0.mb-4(data-aos="fade-right")
         p Dentro de las organizaciones, es indispensable tener presente la estructura de costos de producción, la cual permite determinar los recursos necesarios para la producción de un producto o la prestación de servicios; de estos costos, se encarga la contabilidad de costos.
         p Se deben diferenciar los costos de los gastos; si bien los dos representan una salida de dinero para las organizaciones, los costos están directamente relacionados con la producción o la prestación del servicio, y los gastos hacen parte de las salidas de dinero diferentes a la producción o prestación de servicios.
         p En la estructura de costos se identifican los costos directos e indirectos; en cuanto a los costos directos, son los que directamente están relacionados con el producto o servicio, por ejemplo, las materias primas en la fabricación de productos o la mano de obra calificada en la prestación de un servicio.
-      .col-lg-5.col-md-6.col-10.order-md-2.order-1(data-aos="zoom-in")
+      .col-lg-5.col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="zoom-in")
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img01.png')
 
-    figure.mb-4(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/img02.svg')
+    .row.justify-content-center.mb-5
+      .col-md-6.mb-md-0.mb-4.px-0
+        figure.mb-4(data-aos="fade-right")
+          img(src='@/assets/curso/tema5/img01.svg')
+      .col-md-6.mb-md-0.mb-4.px-0
+        figure.mb-4(data-aos="fade-right")
+          img(src='@/assets/curso/tema5/img02.svg')
 
   .container.BGIMG05.px-4.px-md-5.pt-5
     .row.justify-content-center.mb-5
       .col-md-7.col-11.mb-5(data-aos="fade-right")
         p Estos costos permiten identificar la cantidad de unidades de producto a fabricar o servicios a ofrecer para alcanzar el punto de equilibrio, por lo cual, la fórmula de costos totales es:
-        ol.lista-dollar
+        ol.lista-dollar.ps-4.mb-4
           li.mb-1
             .lista-dollar
             | CT: CV+CF donde CT: costos totales
@@ -46,7 +52,7 @@
             .lista-dollar
             | CF: costos fijos 
         p Para determinar el costo por unidad, el cual se conoce como costo medio o costo unitario, se estima CTme: CT/Q, donde:
-        ol.lista-dollar
+        ol.lista-dollar.ps-4.mb-4
           li.mb-1
             .lista-dollar
             | CTme: costo total medio
@@ -64,7 +70,7 @@
           img(src='@/assets/curso/tema5/img04.png')
       .col-md-7.col-11.mb-5(data-aos="fade-left")
         p Dentro de los costos, también se estima el costo marginal, que es el costo por una unidad adicional a producir, el cual se estima así:
-        ol.lista-dollar
+        ol.lista-dollar.ps-4.mb-4
           li.mb-1
             .lista-dollar
             | CM: dCT/dQ, donde CM: costo marginal
@@ -75,7 +81,7 @@
             .lista-dollar
             | dCT: derivada de unidades o cantidad 
         p En el análisis de costos, se debe estimar el punto de equilibrio, el cual indica las unidades a vender para lograr cubrir los costos totales; se representa con la siguiente fórmula:
-        ol.lista-dollar
+        ol.lista-dollar.ps-4.mb-4
           li.mb-1
             .lista-dollar
             | PE: (Costo fijo)/(PV-Costo variable unitario)
@@ -83,18 +89,19 @@
     .row.justify-content-center.mb-4
       .col-md-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 8
+          h5.mb-4 Figura 8
           span Punto de equilibrio
         
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema5/img05.svg')
-          figcaption Tomado de Algarra (2013).
+          figcaption 
+            span Nota Tomado de Algarra (2013).
 
   .container.BG03.px-4.px-md-5.pt-4
     .row.justify-content-center.mb-4
       .col-md-7.mx-0.BG01.p-5.px-4.mb-4
         p Para estimar el precio de venta, se emplea la siguiente fórmula:
-        ol.lista-dollar
+        ol.lista-dollar.ps-4.mb-4
           li.mb-1
             .lista-dollar
             | PV: CTme/(1 - % Utilidad), donde PV: Precio de venta
@@ -110,7 +117,7 @@
     
     p La empresa Andina S.A fabrica pan tajado, el cual tiene la siguiente estructura de costos: 
 
-    .tabla-a.color-acento-contenido.mb-0
+    .tabla-a.color-acento-contenido.mb-4
       table  
         thead
           tr
@@ -151,13 +158,13 @@
     p La empresa Andina S.A espera una utilidad del 15 % por unidad de producto. Para el mes de enero, fabricó 5.100 bolsas de pan tajado. 
 
   .container.BGIMG05.px-4.px-md-5.pt-5
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-5.col-11.mb-5.px-0(data-aos="fade-right")   
         img(src='@/assets/curso/tema5/img07.png')
       .col-md-7.col-11.mb-5.px-0
         .cajon.color-primario.p-4.mb-4
           p Con los datos anteriores, se obtienen unos costos totales de $ 33.900.000
-          ol.lista-dollar
+          ol.lista-dollar.ps-4.mb-4
             li.mb-1
               .lista-dollar
               | CT: CV + CF
@@ -168,7 +175,7 @@
               .lista-dollar
               | CT: $ 33.900.000
           p Para continuar con el ejemplo, se debe estimar el precio de venta, el cual es:
-          ol.lista-dollar
+          ol.lista-dollar.ps-4.mb-4
             li.mb-1
               .lista-dollar
               | PV: CTme/(1 - % Utilidad)
@@ -179,7 +186,7 @@
               .lista-dollar
               | PV: $6.000
           p Ahora, se estima el punto de equilibrio, el cual indica el número de productos a vender para cubrir los costos totales de la empresa Andina S.A .
-          ol.lista-dollar
+          ol.lista-dollar.ps-4.mb-4
             li.mb-1
               .lista-dollar
               | PE: (Costo fijo) / (PV - Costo variable unitario)
@@ -200,7 +207,7 @@
       .col-md-7.col-11.mb-5(data-aos="fade-right")
         p La educación financiera se extiende a todas las etapas de la vida, con ella se pretende que las personas adquieran habilidades y destrezas en los conceptos básicos del dinero o las finanzas personales; se habla de todas las etapas de la vida debido a que se debe empezar a emplear este concepto desde la niñez.
         p Lo que pretende la educación financiera es enseñar a las personas a tener un adecuado manejo del dinero, para lo cual debe emplear conceptos básicos como:
-        ol.lista-dollar
+        ol.lista-dollar.ps-4.mb-4
           li.mb-1
             .lista-dollar
             | Generar ingresos
@@ -231,33 +238,44 @@
     p Se sugiere que el presupuesto esté conformado de la siguiente manera:
 
   .container.BGIMG05.px-4.px-md-5.pt-5
-    .row.mb-4
+    .row.justify-content-center.mb-4
       .col-md-8.col-11.mb-5(data-aos="fade-right")
-        figure(data-aos="fade-right") 
-          img(src='@/assets/curso/tema5/img10.png')
+        ImagenInfografica.color-acento-contenido.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema5/img10.svg')
+          .tarjeta.BG05.p-3(x="77%" y="5%" numero="+")
+            p #[strong El 50%] de los gastos fijos, que también se pueden llamar gastos básicos, son los que van dirigidos a la vivienda, la alimentación, el transporte, la educación, los servicios públicos, entre otros.
 
-  .container.BG03.px-4.px-md-5.pt-4
+          .tarjeta.BG05.p-3(x="96%" y="16%" numero="+")
+            p #[strong El 30%] de los gastos variables, o caprichos, son los que van dirigidos a salidas recreacionales, actividades de ocio, caprichos, imprevistos.
+          
+          .tarjeta.BG05.p-3(x="98%" y="40%" numero="+")
+            p #[strong El 20%] del ahorro, se debe tomar un 5% para ahorro a largo plazo e imprevistos y el otro 15% se debería destinar a inversión.
+
     .row.mb-4
       .col-md-10.col-12.mb-5
         p En cuanto al apalancamiento financiero, se debe tener en cuenta, principalmente, para realizar inversiones que generen ingresos o beneficios mayores a los de la tasa de interés; se debe evitar adquirir préstamos de consumo, los cuales traen satisfacciones personales, pero en el futuro pueden traer problemas de liquidez o sobreendeudamiento.
         p Finalmente, se invita al aprendiz a analizar el siguiente video de educación financiera, del docente Nicolás González, Contador Público y Especialista en Gestión de Negocios con orientación en Finanzas, docente del área financiera de la Universidad Nacional de Mar del Plata.
       .col-md-2.col-4.mb-5(data-aos="fade-right")
         figure(data-aos="fade-right") 
-          img(src='@/assets/curso/tema5/img09.png')
+          img(src='@/assets/curso/tema5/img11.png')
 
     .row.justify-content-center.mb-5
       .col-md-10.col-11
-        .row.align-items-center.justify-content-center.BGIMG04.p-3
-          .col-1.p-0(data-aos="fade-right")
+        .row.align-items-center.BGIMG04.p-3
+          .col-md-2.col-3.p-0(data-aos="fade-right")
             figure
-              img(src='@/assets/curso/tema3/img04.svg')
-          .col-8.mb-2
-            h4.text-white TED. (18 de noviembre 2020).
-            p.text-white Educación financiera para toda la vida | Nicolas Gonzalez | TEDxMarDelPlata
-          .col-2
-            a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=5PAIPVjGMt4" target="_blank")
-              span Descargar
-              i.fas.fa-file-download    
+              img(src='@/assets/curso/tema5/img12.png')
+          .col-md-10.col-9
+            .row.align-items-center
+              .col-md-9.col-12
+                h4.text-white TED. (18 de noviembre 2020).
+                p.text-white Educación financiera para toda la vida | Nicolas Gonzalez | TEDxMarDelPlata
+              .col-sm-auto.mb-md-0.mb-4
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=5PAIPVjGMt4" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download    
 
 </template>
 

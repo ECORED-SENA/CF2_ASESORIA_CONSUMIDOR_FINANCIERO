@@ -31,22 +31,22 @@
 
   .container.BGIMG05.px-4.px-md-5.pt-5   
     .row.justify-content-center.mb-5
-      .col-lg-3.col-6.mb-lg-0.mb-5
+      .col-lg-3.col-md-6.col-8.mb-lg-0.mb-5
         figure.p-0
           img(src='@/assets/curso/tema4/img03.svg')
         .BG07.p-xl-4.p-3.mb-3
           p <b>Riesgo crediticio:</b> cuando no se asume el pago  de una obligación o se recibe con retraso. 
-      .col-lg-3.col-6.mb-lg-0.mb-5
+      .col-lg-3.col-md-6.col-8.mb-lg-0.mb-5
         figure.p-0
           img(src='@/assets/curso/tema4/img04.svg')
         .BG07.p-xl-4.p-3.mb-3
           p <b>Riesgo de liquidez:</b> cuando el acreedor posee activos, pero los activos corrientes no generan la suficiente liquidez para el pago de sus obligaciones.
-      .col-lg-3.col-6.mb-lg-0.mb-5
+      .col-lg-3.col-md-6.col-8.mb-lg-0.mb-5
         figure.p-0
           img(src='@/assets/curso/tema4/img05.svg')
         .BG07.p-xl-4.p-3.mb-3
           p <b>Riesgo de mercado:</b> son los riesgos asociados al mercado, como el riesgo cambiario o el riesgo de la tasa de interés.
-      .col-lg-3.col-6.mb-lg-0.mb-5
+      .col-lg-3.col-md-6.col-8.mb-lg-0.mb-5
         figure.p-0
           img(src='@/assets/curso/tema4/img06.svg')
         .BG07.p-xl-4.p-3.mb-3
@@ -113,7 +113,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 7
           span Mapa de riesgo
-    .row.mb-5
+    .row.justify-content-center.mb-5
       .col-md-11.ms-3
         figure
           img(src='@/assets/curso/tema4/img10.svg')

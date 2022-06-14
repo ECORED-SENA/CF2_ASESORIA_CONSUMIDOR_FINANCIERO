@@ -322,7 +322,7 @@
             li.mb-2
               .lista-dollar2
               | q: probabilidad de no ocurrencia
-      .col-lg-5.col-md-6.col-11.order-md-2.order-1.p-0.mb-md-0.mb-4
+      .col-lg-5.col-md-6.col-11.order-md-2.order-1.p-4.mb-md-0.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img19.png') 
     

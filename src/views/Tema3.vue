@@ -195,10 +195,12 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
-              figure.p-4.p-lg-0.mb-2
-                img(src='@/assets/curso/tema3/img11.svg') 
-              h4.text-center Estado de situación financiera (Balance general)
-            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
+              .row.justify-content-center
+                .col-xl-9.col-lg-12.col-6
+                  figure.mb-2
+                    img(src='@/assets/curso/tema3/img11.svg') 
+              h4.text-center.mb-xl-4.mb-lg-0.mb-4 Estado de situación financiera (Balance general)
+            .tarjeta-flip__contenido.p-4.py-xl-5.py-lg-0.py-4
               h4 Estado de situación financiera (Balance general)
               p.mb-0 Bienes, dinero y derechos (Activos)
               p.mb-0 Obligaciones (Pasivos)
@@ -208,10 +210,12 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
-              figure.p-4.p-lg-0.mb-2
-                img(src='@/assets/curso/tema3/img12.svg')
-              h4.text-center Estado de resultados
-            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
+              .row.justify-content-center
+                .col-xl-9.col-lg-12.col-6
+                  figure.mb-2
+                    img(src='@/assets/curso/tema3/img12.svg')
+              h4.text-center.mb-xl-4.mb-lg-0.mb-4 Estado de resultados
+            .tarjeta-flip__contenido.p-4.py-xl-5.py-lg-0.py-4
               h4 Estado de resultados
               p Refleja los ingresos y costos de la empresa y detalla si en el periodo hubo beneficios o pérdidas.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -219,10 +223,12 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
-              figure.p-4.p-lg-0.mb-2
-                img(src='@/assets/curso/tema3/img13.svg')
-              h4.text-center Estado de cambio en el patrimonio
-            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
+              .row.justify-content-center
+                .col-xl-9.col-lg-12.col-6
+                  figure.mb-2
+                    img(src='@/assets/curso/tema3/img13.svg')
+              h4.text-center.mb-xl-4.mb-lg-0.mb-4 Estado de cambio en el patrimonio
+            .tarjeta-flip__contenido.p-4.py-xl-5.py-lg-0.py-4
               h4 Estado de cambio en el patrimonio
               p Refleja la variación de entradas y salidas de dinero en un periodo determinado; se detalla la evolución del patrimonio.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -230,10 +236,12 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="'background-color:#D9F0EF'")
-              figure.p-4.p-lg-0.mb-2
-                img(src='@/assets/curso/tema3/img14.svg')
-              h4.text-center Estado de flujo de efectivo
-            .tarjeta-flip__contenido.p-4.p-xl-5.py-xl-4.py-lg-0.py-4
+              .row.justify-content-center
+                .col-xl-9.col-lg-12.col-6
+                  figure.mb-2
+                    img(src='@/assets/curso/tema3/img14.svg')
+              h4.text-center.mb-xl-4.mb-lg-0.mb-4 Estado de flujo de efectivo
+            .tarjeta-flip__contenido.p-4.py-xl-5.py-lg-0.py-4
               h4 Estado de flujo de efectivo
               p Refleja las fuentes y usos del efectivo en la empresa.
 

@@ -94,7 +94,7 @@
         
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema5/img05.svg')
-          figcaption 
+          figcaption.mt-4 
             span Nota Tomado de Algarra (2013).
 
   .container.BG03.px-4.px-md-5.pt-4
@@ -265,7 +265,7 @@
       .col-md-10.col-11
         .row.align-items-center.BGIMG04.p-3
           .col-md-2.col-3.p-0(data-aos="fade-right")
-            figure
+            figure.p-4
               img(src='@/assets/curso/tema5/img12.png')
           .col-md-10.col-9
             .row.align-items-center

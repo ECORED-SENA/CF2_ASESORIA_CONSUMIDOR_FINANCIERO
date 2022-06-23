@@ -44,13 +44,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 1
-      span Metodología estadística
-
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.BG08.p-2
-        .h4.ms-3.mb-0.me-5 Instrumentos
-      .col-auto
-        img.img01(src='@/assets/curso/tema1/img14.svg')   
+      span Metodología estadística 
 
     .row.mb-5 
       .col-md-11(data-aos="fade-left")
@@ -274,7 +268,7 @@
             figure
               img(src='@/assets/curso/tema1/img17.svg') 
           .col-md-12
-            p Como fuentes primarias de información, se encuentran la encuesta, los sondeos, los focus groups, la técnica Delphi, entre otros métodos que al interior de las organizaciones consideren pertinentes en el momento de recolectar datos e información. Observe a continuación en qué consiste cada uno de estos instrumentos. 
+            p Como fuentes primarias de información, se encuentran la encuesta, los sondeos, los #[i focus groups], la técnica #[i Delphi], entre otros métodos que al interior de las organizaciones consideren pertinentes en el momento de recolectar datos e información. Observe a continuación en qué consiste cada uno de estos instrumentos. 
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 2
@@ -287,7 +281,7 @@
             th Encuesta
             th Focus Group
             th Sondeos
-            th Técnica Delphi
+            th Técnica #[i Delphi]
         tbody
           tr
             td 

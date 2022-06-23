@@ -20,7 +20,7 @@
     separador
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1.	Principios de contabilidad 
+      h2 3.1	Principios de contabilidad 
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-10.order-md-1.order-2.mb-md-0.mb-4(data-aos="fade-right")
@@ -166,7 +166,7 @@
     separador
 
     #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2.	Estados financieros
+      h2 3.2	Estados financieros
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.col-md-6.col-10.order-md-1.order-2.mb-md-0.mb-4(data-aos="fade-right")
@@ -306,7 +306,7 @@
     separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.3.	Indicadores financieros
+      h2 3.3	Indicadores financieros
   
     p Los indicadores financieros permiten analizar la situación económica y financiera de una empresa, son de vital importancia, debido a que permiten realizar un adecuado seguimiento y control de los estados financieros, así como la toma de decisiones dentro de las organizaciones.
     p.mb-5 Dentro de los indicadores económicos, se encuentran:

@@ -17,7 +17,7 @@
 
     separador
     #t_5_1.titulo-segundo.color-acento-contenido
-      h2 5.1.	Costos de producción
+      h2 5.1	Costos de producción
     
 
     .row.align-items-center.justify-content-center.mb-5
@@ -111,6 +111,7 @@
           li.mb-1
             .lista-dollar
             | % Utilidad: Porcentaje deseado de utilida d
+        p Ahora, se abordan, mediante un ejemplo, los conceptos de contabilidad de costos.
       .col-md-5.px-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img06.jpg')
@@ -121,8 +122,8 @@
       table  
         thead
           tr
-            th.text-center Encuesta
-            th.text-center Focus Group
+            th.text-center(colspan="2") Costos Variables
+            th.text-center(colspan="2") Costos Fijos
         tbody
           tr
             td Harina de trigo
@@ -201,7 +202,7 @@
     separador
   .container.BG03.px-4.px-md-5.pt-4
     #t_5_2.titulo-segundo.color-acento-contenido
-      h2 5.2.	Educación financiera 
+      h2 5.2	Educación financiera 
 
     .row.mb-4
       .col-md-7.col-11.mb-5(data-aos="fade-right")
@@ -245,13 +246,14 @@
             figure
               img(src='@/assets/curso/tema5/img10.svg')
           .tarjeta.BG05.p-3(x="77%" y="5%" numero="+")
-            p #[strong El 50%] de los gastos fijos, que también se pueden llamar gastos básicos, son los que van dirigidos a la vivienda, la alimentación, el transporte, la educación, los servicios públicos, entre otros.
+            p #[strong El 30%] de los gastos variables, o caprichos, son los que van dirigidos a salidas recreacionales, actividades de ocio, caprichos, imprevistos.
 
           .tarjeta.BG05.p-3(x="96%" y="16%" numero="+")
-            p #[strong El 30%] de los gastos variables, o caprichos, son los que van dirigidos a salidas recreacionales, actividades de ocio, caprichos, imprevistos.
+            p #[strong El 20%] del ahorro, se debe tomar un 5% para ahorro a largo plazo e imprevistos y el otro 15% se debería destinar a inversión.
           
           .tarjeta.BG05.p-3(x="98%" y="40%" numero="+")
-            p #[strong El 20%] del ahorro, se debe tomar un 5% para ahorro a largo plazo e imprevistos y el otro 15% se debería destinar a inversión.
+            p #[strong El 50%] de los gastos fijos, que también se pueden llamar gastos básicos, son los que van dirigidos a la vivienda, la alimentación, el transporte, la educación, los servicios públicos, entre otros.
+            
 
     .row.mb-4
       .col-md-10.col-12.mb-5

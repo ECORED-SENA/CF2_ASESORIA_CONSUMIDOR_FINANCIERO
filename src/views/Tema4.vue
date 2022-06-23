@@ -54,7 +54,7 @@
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido
-      h2 4.1.	Gestión del riesgo
+      h2 4.1	Gestión del riesgo
 
   .container.BG06.p-4.p-md-5
     .row.align-items-center.justify-content-center.mb-5
@@ -97,7 +97,7 @@
     separador
 
     #t_4_2.titulo-segundo.color-acento-contenido
-      h2 4.2.	Informes
+      h2 4.2	Informes
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5.col-md-6.col-10.mb-md-0.mb-4(data-aos="zoom-in")

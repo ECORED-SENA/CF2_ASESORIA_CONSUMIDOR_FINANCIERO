@@ -144,29 +144,39 @@ export default {
   },
   complementario: [
     {
-      texto: 'Análisis financiero',
+      tema: 'Análisis financiero',
+      referencia:
+        'Decreto 410 de 1971. Por el cual se expide el Código de Comercio. Marzo 27 de 1971. D.O 33.339.',
       tipo: 'Decreto',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
     },
     {
-      texto: 'Análisis financiero',
+      tema: 'Análisis financiero',
+      referencia:
+        'Moreno, J. (2014). Contabilidad básica. Grupo Editorial Patria.',
       tipo: 'Ebook',
       link: 'https://www.editorialpatria.com.mx/',
     },
     {
-      texto: 'Análisis financiero',
+      tema: 'Análisis financiero',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Ciclo contable [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=fKYnZt2xTs4&list=PLkc5n6npRWkjKKk9kQvo7hrdPEmUuWoN8&index=4',
     },
     {
-      texto: 'Gestión del riesgo',
+      tema: 'Gestión del riesgo',
+      referencia:
+        'Organización Internacional de Estandarización [ISO]. (2018). Gestión del riesgo — Directrices (ISO 31000:2018).',
       tipo: 'Norma Internacional',
       link: 'https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es',
     },
     {
-      texto: 'Propuesta financiera',
+      tema: 'Propuesta financiera',
+      referencia:
+        'TEDx Talks. (2020). Educación financiera para toda la vida | Nicolás González | TEDxMarDelPlata [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=5PAIPVjGMt4',
     },
@@ -222,7 +232,7 @@ export default {
     },
     {
       referencia: 'Gil, S. (2015). Contabilidad. Economipedia.',
-      link: '. http://economipedia.com/definiciones/contabilidad.html',
+      link: 'http://economipedia.com/definiciones/contabilidad.html',
     },
     {
       referencia:
@@ -256,6 +266,26 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Maria Alejandra Tovar',
+        cargo: 'Experto',
+        centro: 'Regional Tolima- Centro de industria y la construcción',
+      },
+      {
+        nombre: 'Leydy Jhuliana Jaramillo Mejía',
+        cargo: 'Diseñador instruccional',
+        centro: 'Regional Distrito Capital- Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora Metodológica',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -265,7 +295,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Anllelo Andres Reina Montañez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -336,29 +366,19 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Luis Gabriel Urueta Alvarez',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

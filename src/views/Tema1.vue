@@ -279,7 +279,7 @@
         thead
           tr
             th Encuesta
-            th Focus Group
+            th #[i Focus Group]
             th Sondeos
             th Técnica #[i Delphi]
         tbody

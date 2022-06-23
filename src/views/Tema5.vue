@@ -111,11 +111,11 @@
           li.mb-1
             .lista-dollar
             | % Utilidad: Porcentaje deseado de utilida d
-        p Ahora, se abordan, mediante un ejemplo, los conceptos de contabilidad de costos.
+        
       .col-md-5.px-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img06.jpg')
-    
+    p Ahora, se abordan, mediante un ejemplo, los conceptos de contabilidad de costos.
     p La empresa Andina S.A fabrica pan tajado, el cual tiene la siguiente estructura de costos: 
 
     .tabla-a.color-acento-contenido.mb-4
@@ -127,32 +127,32 @@
         tbody
           tr
             td Harina de trigo
-            td $13.000.000
+            td.text-end $13.000.000
             td Arrendamiento 
-            td $2.500.000
+            td.text-end $2.500.000
           tr
             td Mantequilla
-            td $6.000.000
+            td.text-end $6.000.000
             td Mano de obra indirecta
-            td $3.000.000
+            td.text-end $3.000.000
           tr
             td Levadura
-            td $1.500.000
+            td.text-end $1.500.000
             td Servicios públicos
-            td $700.000
+            td.text-end $700.000
           tr
             td Sal 
-            td $700.000
+            td.text-end $700.000
             td Personal de vigilancia 
-            td $1.500.000
+            td.text-end $1.500.000
           tr
             td Bolsa de empacado
-            td $1.900.00
+            td.text-end $1.900.00
             td 
             td 
           tr
             td Mano de obra directa
-            td $5.000.000 
+            td.text-end $5.000.000 
             td 
             td 
 

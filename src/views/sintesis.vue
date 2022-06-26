@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.BG03.px-4.px-md-5.pt-4
 
-    p Síntesis del componente formativo Asesoría al consumidor financiero.
+    p Síntesis del componente formativo Análisis financiero y evaluación del riesgo.
   
   .container.BGIMG05.px-4.px-md-5.pt-5 
 

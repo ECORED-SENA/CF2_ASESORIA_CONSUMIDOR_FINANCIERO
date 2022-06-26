@@ -12,7 +12,7 @@
         p La recolección de información y de datos es el método por el cual se obtiene información deseada para su análisis cuantitativo y cualitativo, lo cual permite la toma de decisiones en los entornos personales y organizacionales. La obtención y análisis de información y datos se basa en métodos estadísticos.
         .BG01.p-2.mb-3
           h5.mb-0 La estadística
-          p.mb-0 se desprende de las matemáticas, cuya finalidad es recopilar, ordenar y análisis datos, los cuales se analizan con la finalidad de comprobar hipótesis, o el comportamiento de las variables objeto de estudio.
+          p.mb-0 Se desprende de las matemáticas, cuya finalidad es recopilar, ordenar y análisis datos, los cuales se analizan con la finalidad de comprobar hipótesis, o el comportamiento de las variables objeto de estudio.
         p Por ejemplo, se pueden estudiar comportamientos de los consumidores financieros, como la frecuencia con la cual solicitan préstamos de consumo o la variable ingresos promedio de una población objeto de estudio.        
       .col-lg-5.col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="zoom-in")
         figure
@@ -156,19 +156,19 @@
                 tbody
                   tr
                     td(style="background-color: #fff; color: #000").text-center.p-2 1
-                    td(style="background-color: #fff; color: #000").text-center.p-2 1
-                  tr
-                    td(style="background-color: #fff; color: #000").text-center.p-2 1
-                    td(style="background-color: #fff; color: #000").text-center.p-2 1
+                    td(style="background-color: #fff; color: #000").text-center.p-2 11
                   tr
                     td(style="background-color: #fff; color: #000").text-center.p-2 2
-                    td(style="background-color: #fff; color: #000").text-center.p-2 2
-                  tr
-                    td(style="background-color: #fff; color: #000").text-center.p-2 2
-                    td(style="background-color: #fff; color: #000").text-center.p-2 2
+                    td(style="background-color: #fff; color: #000").text-center.p-2 8
                   tr
                     td(style="background-color: #fff; color: #000").text-center.p-2 3
                     td(style="background-color: #fff; color: #000").text-center.p-2 4
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center.p-2 4
+                    td(style="background-color: #fff; color: #000").text-center.p-2 2
+                  tr
+                    td(style="background-color: #fff; color: #000").text-center.p-2 n
+                    td(style="background-color: #fff; color: #000").text-center.p-2 25
         .row.justify-content-center.mb-4.mx-4
           .col-md-3.me-5.mb-md-0.mb-4
             p.mb-4 A partir de la información recolectada, se estiman las medidas de tendencia central y desviación estándar, con el uso de análisis de datos de Excel.

@@ -7,7 +7,7 @@
         span 2
       h1 Centrales de riesgo: características y aplicación  
 
-    p.mb-5 Las centrales de riesgo son entidades privadas que administran bases de datos que almacenan información respecto al comportamiento financiero de la personas o entidades. Cuando una persona o empresa solicita un préstamo, las entidades financieras consultan estas centrales de riesgo para verificar el comportamiento de los consumidores. Para ampliar detalles de estas entidades, observe:
+    p.mb-5 Las centrales de riesgo son entidades privadas que administran bases de datos que almacenan información respecto al comportamiento financiero de las personas o entidades. Cuando una persona o empresa solicita un préstamo, las entidades financieras consultan estas centrales de riesgo para verificar el comportamiento de los consumidores. Para ampliar detalles de estas entidades, observe:
   
     figure(data-aos="fade-left")
       .video

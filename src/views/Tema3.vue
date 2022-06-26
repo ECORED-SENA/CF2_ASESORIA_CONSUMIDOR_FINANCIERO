@@ -94,7 +94,7 @@
               .col-md-9.col-12
                 h4.text-white El Código de Comercio, en su Artículo 57, establece las prohibiciones sobre los libros de comercio. Para ampliar sobre los elementos que se prohíben, observe:
               .col-sm-auto.mb-md-0.mb-4
-                a.boton.color-acento-botones(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html" target="_blank")
+                a.boton.color-acento-botones(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr001.html#57" target="_blank")
                   span Descargar
                   i.fas.fa-file-download  
     p.mb-5 Las cuentas T en contabilidad representan el registro de los movimientos contables, el cual consta del débito y del haber; en el momento en que se realiza el registro, se deben diligenciar el código y el nombre de la cuenta.

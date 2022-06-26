@@ -156,7 +156,7 @@ export default {
       referencia:
         'Moreno, J. (2014). Contabilidad básica. Grupo Editorial Patria.',
       tipo: 'Ebook',
-      link: 'https://www.editorialpatria.com.mx/',
+      link: 'https://www.editorialpatria.com.mx/pdffiles/9786074386189.pdf',
     },
     {
       tema: 'Análisis financiero',

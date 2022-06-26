@@ -110,7 +110,7 @@
             | CTme: Costo total medio
           li.mb-1
             .lista-dollar
-            | % Utilidad: Porcentaje deseado de utilida d
+            | % Utilidad: Porcentaje deseado de utilidad
         
       .col-md-5.px-0
         figure(data-aos="fade-left")
